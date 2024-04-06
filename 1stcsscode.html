@@ -1,0 +1,40 @@
+<!-- Design a web page using CSS (Cascading Style Sheets)
+whichincludes the following:
+1) Use different font, styles:
+In the style definition you define how each selector should work
+(font,color etc.). Then, in the body of your pages, you refer to
+these selectors to activate the styles.
+ -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Styled Page</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 16px;
+        color: #666;
+      }
+      h1 {
+        font-size: 36px;
+        color: rgb(115, 214, 128); 
+      }
+      p {
+        font-size: 20px;
+        color: #f80; 
+      }
+      .highlight {
+        background-color: #ff0;
+        color: #f00;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WELCOME TO MY STYLED PAGE </h1> <!-- Changed heading content -->
+    <p>This is a simple sentence.</p> <!-- Changed paragraph content -->
+    <p class="highlight">This is a brightly colored sentence.</p> <!-- Changed highlighted paragraph content -->
+  </body>
+</html>
+
